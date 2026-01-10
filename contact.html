@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav>
+<h1>Contact</h1>
+<div class="hamburger" onclick="toggleMenu()">☰</div>
+<ul id="menu">
+<li><a href="index.html">Home</a></li>
+<li><a href="project.html">Projects</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="videoDemo.html">Video</a></li>
+<li><a href="sitereport.html">Site Report</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<form action="mailto:your@email.com"><input placeholder="Name"><input placeholder="Email"><textarea></textarea><button>Send</button></form>
+</main>
+<footer><p>© 2026 My Portfolio</p></footer>
+<script>
+function toggleMenu(){document.getElementById("menu").classList.toggle("show");}
+</script>
+</body>
+</html>
